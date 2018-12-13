@@ -21,9 +21,9 @@ def GetBookFromURL():
   text = GetTextFromURL()
     # Asks for a URL from Project Gutenberg
     # Gets text from that page
-  start_text = "*** START OF THIS PROJECT GUTENBERG EBOOK A CHRISTMAS CAROL ***"
+  start_text = "START OF THIS PROJECT GUTENBERG EBOOK"
     # Signifies beginning of book on Project Gutenberg pages
-  end_text = "*** END OF THIS PROJECT GUTENBERG EBOOK A CHRISTMAS CAROL ***"
+  end_text = "END OF THIS PROJECT GUTENBERG EBOOK"
     # Signifies end of book on Project Gutenberg pages
   first_slice = text.split(start_text)[1]
     # Slices text into two at the start text
