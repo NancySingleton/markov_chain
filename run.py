@@ -1,6 +1,7 @@
 from fetch_data import GetBookFromURL
 from markov_python.cc_markov import MarkovChain
 import random
+import time
 
 def FormatSentence(word_list):
 	# Turns a list of words into a formatted sentence
@@ -37,4 +38,8 @@ def GenerateText():
     output += sentence
   return output
 
+print "Hi! This program generates text based on a book of your choice from Project Gutenberg."
+time.sleep(.5)
+print "..."
+time.sleep(.5)
 print GenerateText()
